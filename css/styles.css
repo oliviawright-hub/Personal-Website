@@ -79,19 +79,20 @@ ul {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .main-links p{
+  .main-links a{
     font-size: 21px;
     font-weight: 600;
-    text-align: center;
     font-family: 'Fira Code';
     color: #7DA6BB;
   }
   .main-links div{
+    display: block;
     border-radius: 50px;
     background-color: #FFECCF;
     width: 195px;
     height: 64px;
     margin: 70px;
+    text-align: center;
   }
   #github{
     background-color: transparent;
